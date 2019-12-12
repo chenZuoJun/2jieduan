@@ -1,0 +1,1 @@
+$(function(){$(".inp-btn").on("click",function(){var n=$(".inp-txt").val(),t=$(".inp-pw").val();$.ajax({url:"../logon.php",data:{username:n,userpw:t},success:function(n){$("body").html(n),setTimeout(function(){window.open("http://localhost/dist/")},1500)}})})});

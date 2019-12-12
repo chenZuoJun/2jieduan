@@ -1,0 +1,392 @@
+#logo{
+	width: 100%;
+	
+}
+#logo-inner{
+	width: 1170px;
+	height: 150px;
+	margin: 0 auto;
+}
+#logo-img{
+	width: 200px;
+	height: 120px;
+}
+#logo-inner{
+	display: flex;
+	justify-content: space-between
+	
+}
+#logo-img h1 a{
+	display: block;
+	width: 200px;
+	height: 120px;
+	background: url(../img/logo.png);
+	text-indent: -9999px;
+}
+#serach{
+	display: flex;
+	justify-content: center;
+	width: 650px;
+	height: 150px;
+	position: relative;
+	
+}
+#hot{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	
+}
+#hot a{
+	margin: 0 5px;
+	color: #2884C7;
+}
+#serach .inp-txt{
+	margin-top:40px ;
+	width: 500px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 3px solid #2884c7;
+	padding-left: 5px;
+}
+#serach .inp-btn{
+	margin-top:40px ;
+	width: 150px;
+	height: 40px;
+	background: #2884C7;
+	border: 0;
+	cursor: pointer;
+}
+#buy-car{
+	margin-top:40px ;
+	width: 150px;
+	height: 40px;
+	border: 1px solid #333;
+	box-sizing: border-box;
+	line-height: 40px;
+	text-align: center;
+	color: #2884C7;
+	cursor: pointer;
+}
+#buy-car i{
+	font-size: 20px;
+}
+/* 商品分类 */
+#feilei{
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid black;
+}
+.feilei-inner{
+	width: 1176px;
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+}
+.feilei-inner div:nth-child(1){
+	width: 220px;
+	height: 40px;
+	background: #000000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.feilei-inner div:nth-child(1) a{
+	color: white;
+}
+.feilei-inner div:nth-child(2){
+	width: 64px;
+	height: 40px;
+	margin-left: 34px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.feilei-inner div:nth-child(3){
+	width: 80px;
+	height: 40px;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.feilei-inner div:nth-child(4) {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	right: 0;
+	top: 0;
+}
+.feilei-inner >ul{
+	width: 220px;
+	height: 421px;
+	background: rgba(0,0,0,.9);
+	position: absolute;
+	top: 42px;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 15px 0;
+	box-sizing: border-box;
+	cursor: pointer;
+	display: none;
+}
+.feilei-inner >ul li{
+	color: white;
+	line-height: 65px;
+	height: 65px;
+	font-size: 14px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.feilei-inner >ul li .iconfont{
+	font-size: 14px;
+	position: absolute;
+	right: 40px;
+}
+#shanpin-main{
+	width: 1176px;
+	margin: 0 auto;
+	
+}
+
+/* 商品详情 */
+.bread_nav{
+	height: 44px;
+	line-height: 44px;
+	padding: 0 5px;
+	width: 1176px;
+	margin: 0 auto;
+	font-size: 14px;
+
+}
+.big-img{
+	width: 448px;
+	height: 448px;
+	border: 1px solid #CCCCCC;
+	position: relative;
+	cursor: pointer;
+}
+.big-img img{
+	width: 100%;
+	height: 100%;
+}
+.change-img ul{
+	display: flex;
+	margin-top: 10px;
+}
+.change-img ul li{
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	border: 1px solid #CCCCCC;
+}
+.change-img ul li img{
+	width: 100%;
+	height: 100%;
+}
+.shop-img{
+	position: relative;
+}
+.mast{
+	width: 224px;
+	height: 224px;
+	background: rgba(0,0,0,.2);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.fdj{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: absolute;
+	border: 1px solid #999999;
+	background: white;
+	top: 0;
+	left: 460px;
+	z-index: 2;
+	display: none;
+}
+.fdj-img{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.xianqing{
+	display: flex;
+	justify-content: space-between;
+}
+.shop-jieshao{
+	width: 700px;
+}
+.shop-title{
+	width: 720px;
+	height: 23px;
+	margin-bottom: 10px;
+}
+.shop-title span{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: white;
+	background: red;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.shop-title i{
+	font-size: 14px;
+}
+.shop-shuoming{
+	height: 23px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+}
+.shop-shuoming i{
+	color: #888888;
+	font-size: 12px;
+}
+.shop-price{
+	width: 700px;
+	height: 60px;
+	background: #f9f9f9;
+}
+.shop-price span{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	margin: 20px 0 0 11px;
+}
+.shop-price i{
+	display: inline-block;
+	height: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color:#c80000;
+}
+.peisong-map{
+	width: 700px;
+	height: 34px;
+}
+.peisong-map span{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	margin: 20px 0 0 11px;
+}
+.peisong-map a{
+	display: inline-block;
+	height: 20px;
+	margin-top: 7px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.peisong-map .iconfont{
+	font-size: 10px;
+}
+.model{
+	width: 700px;
+	height: 57px;
+	padding-top: 9px;
+	box-sizing: border-box;
+}
+
+.model span{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	margin: 20px 0 0 11px;
+}
+.model i{
+	display: inline-block;
+	width: 56px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid red;
+	color: red;
+}
+.size{
+	width: 700px;
+	height: 57px;
+}
+
+.size span{
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+	margin: 20px 0 0 11px;
+}
+.size i{
+	display: inline-block;
+	text-align: center;
+	line-height: 32px;
+	width: 56px;
+	height: 32px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	border: 1px solid red;
+}
+.all-price{
+	width: 700px;
+	height: 50px;
+	background: #F9F9F9;
+	margin-top: 10px;
+	position: relative;
+}
+.all-price span{
+	display: inline-block;
+	width: 70px;
+	height: 50px;
+	margin-left: 11px;
+	line-height: 50px;
+}
+.all-price i{
+	display: inline-block;
+	width: 56px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+}
+.shop-car{
+	width: 150px;
+	height: 50px;
+	background: red;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
